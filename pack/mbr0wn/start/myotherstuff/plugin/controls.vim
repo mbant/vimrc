@@ -15,7 +15,7 @@ map <S-Tab> :bprev<Enter>
 " tab shortkeys
 "map <leader>tn :tabnew %<cr>
 "map <leader>tc :tabclose<cr>
-"map <leader>tm :tabmove 
+"map <leader>tm :tabmove
 
 map <C-F12> :MBEToggle<cr>
 
@@ -45,5 +45,5 @@ onoremap <expr> <CR> empty(&buftype) ? '}' : '<CR>'
 vnoremap <CR> }
 
 " clang-format integration
-map <C-K> :py3f /usr/share/clang/clang-format-6.0/clang-format.py<CR>
-imap <C-K> <c-o>:py3f /usr/share/clang/clang-format-6.0/clang-format.py<CR>
+map <C-K> :py3f /usr/share/clang/clang-format.py<CR>
+imap <C-K> <c-o>:py3f /usr/share/clang/clang-format.py<CR>

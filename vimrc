@@ -55,7 +55,7 @@ set completeopt=menuone,menu,longest,preview
 """""" ALE """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:ale_lint_on_text_changed = 'never'
 let g:ale_cpp_clangcheck_options = '-extra-arg=-std=c++14'
-let g:ale_python_pylint_executable = 'pylint3'
+let g:ale_python_pylint_executable = 'pylint-3'
 
 
 """""" Airline """"""""""""""""""""""""""""""""
